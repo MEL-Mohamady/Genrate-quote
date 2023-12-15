@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-image:linear-gradient(rgba(27, 25, 27, 0.5) 5% 10%), url(../img/pexels-lumn-167699.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+h2{
+    border: #3ca8d3 5px solid; 
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 5px;
+    padding-top: 0;
+}
+.Mcard{
+    position: relative;
+    background: #fff;
+    color: black;
+    border-radius: 10px;
+
+}
+.name{
+position: absolute;
+top: 20px;
+left:-15px ;
+width: 250px;
+height: 30px;
+background-color: #43c0f1;
+border-radius: 30px;
+border-bottom-left-radius: 0;
+color: #fff;
+
+}
+.name::before{
+    content: "";
+    position: absolute;
+    top: 30px;
+    left: -0.3px;
+    width: 15px;
+    height: 30px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 30px;
+    background-color:#3ca8d3;
+    z-index: 2;
+    
+}
+.name::after{
+    content: "";
+    position: absolute;
+    top: 30px;
+    left: -0.30px; 
+
+    width: 15px;
+    height: 12px;
+    
+    background-color:#3cbff3 ;
+    
+}
+button{
+    background-color: #43c0f1;
+    color: #fff;
+    border: none;
+    font-size: 17px;
+    padding: 9px;
+    border-radius:5px ;
+}
+span{
+    color: #43c0f1;
+    font-size: 50px;
+}
+.f{
+    color: black;
+}
+.icon{
+    color: #3ca8d3;
+    font-size: 28px;
+}
